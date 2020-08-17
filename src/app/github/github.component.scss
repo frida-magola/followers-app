@@ -1,0 +1,13 @@
+.e-follower {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+  }
+  p {
+    margin-left: 12px;
+  }
+}

@@ -1,0 +1,15 @@
+.nav {
+  list-style: none;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  li {
+    a {
+      color: #333;
+    }
+
+    &.active {
+      background-color: blue;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+<div class="container-fluid">
+  <ul class="nav navbar-dark" [style.backgroundColor]="backgroundColor">
+    <li class="nav-item" routerLinkActive="active current">
+      <a class="nav-link" routerLink="/">Home</a>
+    </li>
+    <li class="nav-item" routerLinkActive="active current">
+      <a
+        class="nav-link active"
+        routerLink="/followers"
+        [queryParams]="{ page: 1, order: 'newest' }"
+        >Follower</a
+      >
+    </li>
+    <li class="nav-item" routerLinkActive="active current">
+      <a class="nav-link" routerLink="/posts">Post</a>
+    </li>
+
+    <li class="nav-item" routerLinkActive="active current">
+      <a class="nav-link" routerLink="/archives">Archives</a>
+    </li>
+  </ul>
+</div>
